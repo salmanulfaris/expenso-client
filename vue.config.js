@@ -4,8 +4,8 @@ module.exports = defineConfig({
         'vuetify'
     ],
     pwa: {
-        themeColor: "#130f40",
-        msTileColor: "#130f40",
+        themeColor: "#1f6187",
+        msTileColor: "#228cb1",
         name: "Varav Chelav",
         manifestOptions: {
             icons: [
