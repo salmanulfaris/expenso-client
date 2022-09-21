@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '~vuetify/src/styles/styles.sass';
+$body-font-family: 'Inter', sans-serif;
+$btn-text-transform: none !default;
+$btn-letter-spacing: 0em !default;
+$btn-font-sizes:();
+$btn-font-sizes: map-deep-merge(
+                $btn-font-sizes,
+                (
+                        'x-small': .625rem,
+                        'small': .75rem,
+                        'default': 1rem,
+                        'large': 1.125rem,
+                        'x-large': 1.25rem
+                )
+);
+
+
